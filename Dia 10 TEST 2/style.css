@@ -135,13 +135,13 @@ body {
         width: 65vmin;
         height: auto; 
         opacity: 0;
-        animation: fadeIn 2s ease-in-out 1s forwards;
+        animation: fadeIn 2s ease-in-out 2s forwards;
     }
     
     
 .flowers-piso2 {
     opacity: 0;
-    animation: fadeIn 1s ease-in-out 7s forwards;
+    animation: fadeIn 2s ease-in-out 7s forwards;
     }
 
     @keyframes fadeOut {
@@ -170,13 +170,13 @@ body {
     width: 65vmin;
     height: auto; 
     opacity: 0;
-    animation: fadeIn 1s ease-in-out 1s forwards;
+    animation: fadeIn 2s ease-in-out 2s forwards;
 }
     
     
 .flowers-piso3 {
     opacity: 0;
-    animation: fadeIn 1s ease-in-out 7s forwards;
+    animation: fadeIn 2s ease-in-out 7s forwards;
     }
 
     @keyframes fadeOut {
