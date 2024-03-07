@@ -141,7 +141,7 @@ body {
     
 .flowers-piso2 {
     opacity: 0;
-    animation: fadeIn 2s ease-in-out 7s forwards;
+    animation: fadeIn 1s ease-in-out 7s forwards;
     }
 
     @keyframes fadeOut {
@@ -170,13 +170,13 @@ body {
     width: 65vmin;
     height: auto; 
     opacity: 0;
-    animation: fadeIn 2s ease-in-out 1s forwards;
+    animation: fadeIn 1s ease-in-out 1s forwards;
 }
     
     
 .flowers-piso3 {
     opacity: 0;
-    animation: fadeIn 2s ease-in-out 7s forwards;
+    animation: fadeIn 1s ease-in-out 7s forwards;
     }
 
     @keyframes fadeOut {
@@ -234,6 +234,8 @@ body {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8) translateY(20px);
+    height: 35vw;
+    width: auto;
     max-width: 40vw;
     text-align: center;
     opacity: 0;
