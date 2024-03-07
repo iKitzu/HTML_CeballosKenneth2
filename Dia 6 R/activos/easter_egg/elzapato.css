@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita que haya desplazamiento vertical */
+}
+
+img {
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente su contenedor manteniendo la relación de aspecto */
+}

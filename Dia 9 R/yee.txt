@@ -1,0 +1,55 @@
+
+
+Hace rato conoci al pana miguel
+
+--dino1--
+https://player.vimeo.com/video/854191048?h=935ef5e364&title=0&muted=1&loop=1&background=1&quality=hd&app_id=122963
+
+--texto1--
+https://kotoprod.wpengine.com/wp-content/uploads/2023/08/Koto-x-De-extinction-Long-Form-1-1300x1733.jpg
+
+--gifplastic--
+https://player.vimeo.com/video/853988616?h=437ec40c29&title=0&muted=1&loop=1&background=1&quality=hd&app_id=122963
+
+--dinogrande--
+https://player.vimeo.com/video/853988588?h=c7b4a18ac3&title=0&muted=1&loop=1&background=1&quality=1080p&app_id=122963
+
+--texto2--
+https://kotoprod.wpengine.com/wp-content/uploads/2023/08/Koto-x-De-extinction-Strategy-01-1300x843.jpg
+
+--dino2--
+https://player.vimeo.com/video/853988650?h=6eeb8ce9c5&title=0&muted=1&loop=1&background=1&quality=hd&app_id=122963
+
+--collage--
+https://kotoprod.wpengine.com/wp-content/uploads/2023/08/Koto-x-De-extinction-Competitors-1-1300x1833-copy.jpeg
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, fr);
+    grid-gap: 20px;
+    padding: 100px 0;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box:nth-child(1) {
+    grid-column-start: span 1;
+}
+
+.box:nth-child(3) {
+    grid-column-start: span 2;
+}

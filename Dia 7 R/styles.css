@@ -1,0 +1,651 @@
+body {
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.rectangulo-base {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 1080px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+.foods {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 60px;
+    margin-top: -1100px;
+    margin-left: 120px;  
+}
+
+.text-principal {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 110px;
+    margin-top: 80px;
+    margin-top: -920px;
+    margin-left: 220px;  
+}
+
+.slogan-inicial {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-top: -700px;
+    margin-left: 222px;  
+}
+
+.slogan-inicial1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-top: -645px;
+    margin-left: 222px;  
+}
+
+.cuadro-naranja {
+    position: absolute;
+    border-radius: 12px;
+    width: 280px; 
+    height: 80px; 
+    background-color: #ff702a;
+    margin-top: -490px;
+    margin-left: 222px;  
+}
+
+.todaysmenu {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin-top: -505px;
+    margin-left: 252px;  
+}
+
+.foto-inicial {
+    position: absolute;
+    margin-top: -970px;
+    margin-left: 1110px;  
+}
+
+.home {
+    position: absolute;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -1070px;
+    margin-left: 920px;  
+}
+
+.about {
+    position: absolute;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -1070px;
+    margin-left: 1120px;  
+}
+
+.menu {
+    position: absolute;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -1070px;
+    margin-left: 1320px;  
+}
+
+.service {
+    position: absolute;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -1070px;
+    margin-left: 1520px;  
+}
+
+.contact {
+    position: absolute;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -1070px;
+    margin-left: 1720px;  
+}
+
+/* 
+Aqui empieza la segunda pagina SIUUU
+*/
+
+.rectangulo-base2 {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 1080px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+.imagen-principal2 {
+    position: absolute;
+    margin-top: -840px;
+    margin-left: 200px;  
+}
+
+.about-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 35px;
+    margin-top: -920px;
+    margin-left: 850px;  
+}
+
+.slogan1-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 85px;
+    margin-top: -920px;
+    margin-left: 850px;  
+}
+
+.slogan2-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 85px;
+    margin-top: -830px;
+    margin-left: 850px;  
+}
+
+.reslogan1-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 45px;
+    margin-top: -650px;
+    margin-left: 850px; 
+}
+
+.reslogan2-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 45px;
+    margin-top: -590px;
+    margin-left: 850px; 
+}
+
+.reslogan3-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 45px;
+    margin-top: -530px;
+    margin-left: 850px; 
+}
+
+.cuadro-naranja2 {
+    position: absolute;
+    border-radius: 12px;
+    width: 350px; 
+    height: 80px; 
+    background-color: #ff702a;
+    margin-top: -380px;
+    margin-left: 850px;  
+}
+
+.learnmore2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin-top: -395px;
+    margin-left: 920px; 
+}
+
+/*
+Aqui empieza la parte 3 NYEHEHEHE
+*/
+
+.rectangulo-base3 {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 1080px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+.titulo3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 35px;
+    margin-top: -980px;
+    margin-left: 850px; 
+}
+
+.slogan3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 80px;
+    margin-top: -920px;
+    margin-left: 500px;  
+}
+
+.cuadro-blanco1 {
+    position: absolute;
+    width: 370px; 
+    height: 400px; 
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+    margin-top: -600px;
+    margin-left: 250px;
+}
+
+.cuadro-blanco2 {
+    position: absolute;
+    width: 370px; 
+    height: 400px; 
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+    margin-top: -600px;
+    margin-left: 750px;
+}
+
+.cuadro-blanco3 {
+    position: absolute;
+    width: 370px; 
+    height: 400px; 
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+    margin-top: -600px;
+    margin-left: 1250px;
+}
+
+.food1 {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 280px;
+}
+
+.food2 {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 780px;
+}
+
+.food3 {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 1280px;
+}
+
+.slogan-food1-1-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: -360px;
+    margin-left: 295px;
+}
+
+.slogan-food1-2-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -315px;
+    margin-left: 355px;
+}
+
+.slogan-food1-3-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 26px;
+    margin-top: -278px;
+    margin-left: 390px;
+}
+
+.slogan-food1-1-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: -360px;
+    margin-left: 295px;
+}
+
+.slogan-food1-2-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -315px;
+    margin-left: 355px;
+}
+
+.slogan-food1-3-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 26px;
+    margin-top: -278px;
+    margin-left: 390px;
+}
+
+
+.slogan-food2-1-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: -360px;
+    margin-left: 758px;
+}
+
+.slogan-food2-2-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -315px;
+    margin-left: 855px;
+}
+
+.slogan-food2-3-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 26px;
+    margin-top: -278px;
+    margin-left: 890px;
+}
+
+
+.slogan-food3-1-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: -360px;
+    margin-left: 1280px;
+}
+
+.slogan-food3-2-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -315px;
+    margin-left: 1360px;
+}
+
+.slogan-food3-3-3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    font-size: 26px;
+    margin-top: -278px;
+    margin-left: 1400px;
+}
+
+/* 
+Aqui empeiza la pagina 4
+*/
+
+.rectangulo-base4 {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 1080px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+.titulo4 {
+    position: absolute;
+    font-size: 50px;
+    color: #ff702a;
+    margin-top: -1050px;
+    margin-left: 960px;
+}
+
+.slogan4 {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -980px;
+    margin-left: 460px;
+}
+
+.imagen4-1 img {
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 200px;
+    width: 400px;
+    height: auto; 
+}
+
+.imagen4-2 img {
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 800px;
+    width: 400px;
+    height: auto; 
+}
+
+.imagen4-3 img {
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 1400px;
+    width: 400px;
+    height: auto; 
+}
+
+.reslogan4-1 {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    margin-top: -420px;
+    margin-left: 270px;
+}
+
+.reslogan4-2 {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    margin-top: -420px;
+    margin-left: 830px;
+}
+
+.reslogan4-3 {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #ff702a;
+    margin-top: -420px;
+    margin-left: 1400px;
+}
+
+.sloganre4-1-1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -280px;
+    margin-left: 185px;
+}
+
+.sloganre4-1-2 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -240px;
+    margin-left: 130px;
+}
+
+.sloganre4-1-3 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -200px;
+    margin-left: 220px;
+}
+
+.sloganre4-2-1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -280px;
+    margin-left: 785px;
+}
+
+.sloganre4-2-2 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -240px;
+    margin-left: 730px;
+}
+
+.sloganre4-2-3 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -200px;
+    margin-left: 820px;
+}
+
+.sloganre4-3-1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -280px;
+    margin-left: 1385px;
+}
+
+.sloganre4-3-2 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -240px;
+    margin-left: 1330px;
+}
+
+.sloganre4-3-3 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -200px;
+    margin-left: 1420px;
+}
+
+/*
+Aqui va la 5
+*/
+
+.rectangulo-base5 {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 990px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+.rectangulo-base5-1 {
+    position: absolute;
+    border: 15px solid #ff702a;
+    width: 1600px; 
+    height: 700px;
+    margin-top: -910px;
+    margin-left: 160px; 
+    background-color: #faeaea;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}
+
+
+.titulo5-1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    color: black;
+    margin-top: -850px;
+    margin-left: 570px;
+}
+
+.titulo5-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-top: -730px;
+    margin-left: 840px;
+}
+
+.boton-naranjo5 {
+    position: absolute;
+    border: 15px solid #ff702a;
+    width: 280px; 
+    height: 70px;
+    margin-top: -500px;
+    margin-left: 850px; 
+    background-color: #ff702a;
+    box-shadow: 7px 7px 27px #000;
+    border-radius: 10px;
+}
+
+.learnmore5 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    color: white;
+    width: 280px; 
+    height: 70px;
+    margin-top: -510px;
+    margin-left: 905px; 
+}
+
+/* #faeaea */
+
+/* 
+Aqui va la 6 
+*/
+
+
+.rectangulo-base6 {
+    border: 15px solid #ff702a;
+    width: 1920px; 
+    height: 540px; 
+    background-color: #1e1d2b;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 30px;
+}

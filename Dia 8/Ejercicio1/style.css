@@ -1,0 +1,9 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  border:2px solid #000000;
+  justify-content:center;
+}
+.elementos {
+    margin: 15px;
+}

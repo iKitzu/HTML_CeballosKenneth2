@@ -1,0 +1,298 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #000000; 
+    animation: cambioColor 0.5s ease 7s forwards; 
+}
+/*
+@keyframes cambioColor {
+    to {
+        background-color: #040204; 
+    }
+}
+*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative; 
+}
+
+.puerta-ruinas {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    animation: fadeIn 1.5s ease-in-out, zoomIn 1s ease-in-out 5.7s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(40);
+    }
+}
+
+
+
+.dialog-box {
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2vw;
+    max-width: 80vw;
+    text-align: center;
+    font-size: 2vw;
+    opacity: 0;
+    animation: fadeInOut 4s ease-in-out;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes showDialog {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
+}
+
+.flowers-piso {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65vmin;
+    height: auto; 
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 1s forwards;
+}
+
+
+.flowers-piso {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out 6s forwards;
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+.flowers-piso2 {
+        position: absolute;
+        top: 60%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+        width: 65vmin;
+        height: auto; 
+        opacity: 0;
+        animation: fadeIn 2s ease-in-out 1s forwards;
+    }
+    
+    
+.flowers-piso2 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 7s forwards;
+    }
+
+    @keyframes fadeOut {
+        0% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+
+.flowers-piso3 {
+    position: absolute;
+    top: 60%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    width: 65vmin;
+    height: auto; 
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 1s forwards;
+}
+    
+    
+.flowers-piso3 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 7s forwards;
+    }
+
+    @keyframes fadeOut {
+        0% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+
+.lluvia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65vmin;
+    height: auto; 
+    opacity: 0;
+}
+
+
+.lluvia {
+    opacity: 0;
+    animation: fadeInOut 4s ease-in-out 9s forwards;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.flowey {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8) translateY(20px);
+    max-width: 40vw;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInAndMoveUp 1s ease-in-out forwards, oscillate 4s ease-in-out infinite;
+    animation-delay: 13s;
+}
+
+@keyframes fadeInAndMoveUp {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8) translateY(40px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes oscillate {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(0.8) translateY(20px);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(0.8) translateY(40px);
+    }
+}
+
+
+
+.dialog-box2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2vw;
+    max-width: 90vw;
+    width: 50%;
+    height: 15%; 
+    text-align: center;
+    font-size: 2vw;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 14s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes showDialog {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
+}

@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url(/fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    background-color: gray;
+}
+
+
+
+
+.rectangulo-base {
+    border-radius: 30px;
+    width: 1900px; 
+    height: 1080px; 
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+#logo-metrolinea2 {
+    position: absolute;
+    margin-top: 830px;
+    margin-left: 1402px;
+}
+
+.rectangulo-verde {
+    position: absolute;
+    width: 300px;
+    height: 190px;
+    margin-top: 800px;
+    margin-left: 1350px;
+    background-color: greenyellow;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+#logo-metrolinea {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 70px;
+    width: 280px;
+}
+
+#tarjeta-metrolinea {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 480px;
+    width: 725px;
+    height: 390px;
+}
+/*
+#black-line {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1730px;
+    width: 170px;
+    height: 1080px;
+}
+*/
+.base .textos .tarjetamsaldo {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 55px;
+    margin-top: 590px;
+    margin-left: 360px;
+}
+
+.saldo-escogido {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 40px;
+    margin-top: 770px;
+    margin-left: 680px;
+}
+
+.base .textos .trepesos {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 35px;
+    margin-top: 700px;
+    margin-left: 620px;
+}
+
+.base .textos .comprartarjeta {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 800px;
+    color: black;
+}
+
+.base .textos .versaldo {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 1170px;
+    color: black;
+}
+
+#buscador {
+    position: absolute;
+    width: 45px;
+    margin-left: 1420px;
+    margin-top: 55px;
+}
+
+#carrito {
+    position: absolute;
+    width: 45px;
+    margin-left: 1550px;
+    margin-top: 55px;
+}
+
+.rectangulo-base .imagenes .vaiacomprar {
+    font-family: "Open Sans Semibold";
+    font-size: 35px;
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 1432px;
+}
+
+#flecharriba {
+    position: absolute;
+    margin-left: 1790px;
+    margin-top: 50px;
+}
+
+#flechabajo {
+    position: absolute;
+    transform: rotate(180deg);
+    margin-left: 1790px;
+    margin-top: 990px;
+}
+
+#linea-negra {
+    position: absolute;
+    height: 3px;
+    width: 140px;
+    margin-top: 105px;
+    margin-left: 1190px;
+}
+
+.rectangulo-base .imagenes .cantidad {
+    font-family: "Open Sans Regular";
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    margin-left: 1785px;
+    margin-top: 200px;
+}
+
+.rectangulo-vacio {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    background-color: transparent;
+    margin-top: 870px;
+    margin-left: 625px;
+  }
+
+.milky {
+    position: absolute;
+    font-family: "Open Sans Regular";
+    color: gray;
+    font-size: 50px;
+    margin-top: 835px;
+    margin-left: 750px;
+}
+
+.cuadro-peru {
+    position: absolute;
+    border-radius: 15px;
+
+    margin-top: 0px;
+    margin-left: 1730px;
+    width: 170px;
+    height: 1080px;
+    background-color: black; /* Color oro como representación del rojo en la bandera peruana */
+  }
+
+  .milpeso {
+    position: absolute;
+    font-size: 32px; 
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Open Sans Regular";
+    color: gray;
+    margin-top: -700px;
+    margin-left: 1770px;
+}
+
+.milquinientopeso {
+    position: absolute;
+    font-size: 32px; 
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Open Sans Regular";
+    color: white;
+    margin-top: -530px;
+    margin-left: 1770px;
+}
+
+.domilpeso {
+    position: absolute;
+    font-size: 32px; 
+    font-family: "Open Sans Regular";
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    color: gray;
+    margin-top: -360px;
+    margin-left: 1770px;
+}

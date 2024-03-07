@@ -1,0 +1,40 @@
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.articulo {
+    flex: 0 0 calc(33.333% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.articulo img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.articulo h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .articulo {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .articulo {
+        flex: 0 0 calc(100% - 20px);
+    }
+}

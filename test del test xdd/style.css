@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #000000; /* Color inicial negro */
+    animation: cambioColor 0.5s ease 7s forwards; /* Inicia la animación después de 7 segundos */
+}
+/*
+@keyframes cambioColor {
+    to {
+        background-color: #040204; 
+    }
+}
+*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative; 
+}
+
+.puerta-ruinas {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    animation: fadeIn 1.5s ease-in-out, zoomIn 1s ease-in-out 5.7s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(40);
+    }
+}
+
+
+
+.dialog-box {
+    position: absolute;
+    top: 80%; /* Ajusta el porcentaje para controlar la posición vertical */
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2vw;
+    max-width: 80vw;
+    text-align: center;
+    font-size: 2vw;
+    opacity: 0;
+    animation: fadeInOut 4s ease-in-out;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes showDialog {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
+}
+
+.flowers-piso {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65vmin; /* Utiliza vmin para mantener el tamaño relativo al viewport más pequeño */
+    height: auto; /* Mantiene la proporción de la imagen */
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 1s forwards;
+}
+
+
+.flowers-piso {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out 6s forwards;
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }

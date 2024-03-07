@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form action="" method="get">
+
+        <h1>Formulario de registro - Mi web</h1>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
+    
+        <label>Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre" required>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer" required>
+        <label for="mujer">Mujer</label>
+    
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" id="correo">
+    
+        <label>
+            <input type="checkbox" checked>
+            Deseo recibir información sobre novedades y ofertas
+        </label>
+    
+        <label>
+            <input type="checkbox" required>
+            Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+        </label>
+    
+        <label for="poblacion">Población:</label>
+        <select name="poblacion" id="poblacion">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </select>
+        
+        <label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" id="descripcion" cols="15" rows="5"></textarea>
+    
+        <button type="submit" >Enviar</button>
+    
+
+    </form>
+
+    
+</body>
+</html>
